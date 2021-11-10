@@ -8,6 +8,11 @@ namespace TestProject1
         public string Name { get; }
         public DateTime CreationDate { get; }
 
+
+        public Entity()
+        {
+        }
+        
         public Entity(int id, string name, DateTime creationDate)
         {
             Id = id;
